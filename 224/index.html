@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title> Ostelife Premium </title>
+    <meta content="initial-scale=0.9, width=device-width" name="viewport" />
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <style>
+            img,legend{border:0}legend,ol,td,th,ul{padding:0}.block1__top-sale,.wrapper,.wrapper-hidden,sub,sup{position:relative}@font-face{font-family:'Roboto Condensed';font-style:normal;font-weight:300;src:local('Roboto Condensed Light'),local('RobotoCondensed-Light'),url(https://fonts.gstatic.com/s/robotocondensed/v16/b9QBgL0iMZfDSpmcXcE8nE8xhg-WlD4iG4AP-V7QxYA.woff2) format('woff2');unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F}@font-face{font-family:'Roboto Condensed';font-style:normal;font-weight:300;src:local('Roboto Condensed Light'),local('RobotoCondensed-Light'),url(https://fonts.gstatic.com/s/robotocondensed/v16/b9QBgL0iMZfDSpmcXcE8nN_eC2PfU-cUGGN7U-FIfKc.woff2) format('woff2');unicode-range:U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}@font-face{font-family:'Roboto Condensed';font-style:normal;font-weight:300;src:local('Roboto Condensed Light'),local('RobotoCondensed-Light'),url(https://fonts.gstatic.com/s/robotocondensed/v16/b9QBgL0iMZfDSpmcXcE8nLvM2QJLsjx6Keu1D2MYodo.woff2) format('woff2');unicode-range:U+1F00-1FFF}@font-face{font-family:'Roboto Condensed';font-style:normal;font-weight:300;src:local('Roboto Condensed Light'),local('RobotoCondensed-Light'),url(https://fonts.gstatic.com/s/robotocondensed/v16/b9QBgL0iMZfDSpmcXcE8nNd5cRMOq5PeG3VabknWPxo.woff2) format('woff2');unicode-range:U+0370-03FF}@font-face{font-family:'Roboto Condensed';font-style:normal;font-weight:300;src:local('Roboto Condensed Light'),local('RobotoCondensed-Light'),url(https://fonts.gstatic.com/s/robotocondensed/v16/b9QBgL0iMZfDSpmcXcE8nLpX8dGXLalyu5OokvgDQcs.woff2) format('woff2');unicode-range:U+0102-0103,U+0110-0111,U+1EA0-1EF9,U+20AB}@font-face{font-family:'Roboto Condensed';font-style:normal;font-weight:300;src:local('Roboto Condensed Light'),local('RobotoCondensed-Light'),url(https://fonts.gstatic.com/s/robotocondensed/v16/b9QBgL0iMZfDSpmcXcE8nPVFL0ofnRu5Y2lP-UpEUGU.woff2) format('woff2');unicode-range:U+0100-024F,U+0259,U+1E00-1EFF,U+20A0-20AB,U+20AD-20CF,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:'Roboto Condensed';font-style:normal;font-weight:300;src:local('Roboto Condensed Light'),local('RobotoCondensed-Light'),url(https://fonts.gstatic.com/s/robotocondensed/v16/b9QBgL0iMZfDSpmcXcE8nBBQ_Gf4FfI8J4SYljBAylk.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2212,U+2215}@font-face{font-family:'Roboto Condensed';font-style:normal;font-weight:400;src:local('Roboto Condensed'),local('RobotoCondensed-Regular'),url(https://fonts.gstatic.com/s/robotocondensed/v16/Zd2E9abXLFGSr9G3YK2MsDrvev4WAjW489CRDHIkJ90.woff2) format('woff2');unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F}@font-face{font-family:'Roboto Condensed';font-style:normal;font-weight:400;src:local('Roboto Condensed'),local('RobotoCondensed-Regular'),url(https://fonts.gstatic.com/s/robotocondensed/v16/Zd2E9abXLFGSr9G3YK2MsCGXDOnx9ptx3UTSPTrfsgk.woff2) format('woff2');unicode-range:U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}@font-face{font-family:'Roboto Condensed';font-style:normal;font-weight:400;src:local('Roboto Condensed'),local('RobotoCondensed-Regular'),url(https://fonts.gstatic.com/s/robotocondensed/v16/Zd2E9abXLFGSr9G3YK2MsAZ98xO_Wnt-JIem4AuLGfs.woff2) format('woff2');unicode-range:U+1F00-1FFF}@font-face{font-family:'Roboto Condensed';font-style:normal;font-weight:400;src:local('Roboto Condensed'),local('RobotoCondensed-Regular'),url(https://fonts.gstatic.com/s/robotocondensed/v16/Zd2E9abXLFGSr9G3YK2MsE1G989qbVg6RT5ly5jB8V8.woff2) format('woff2');unicode-range:U+0370-03FF}@font-face{font-family:'Roboto Condensed';font-style:normal;font-weight:400;src:local('Roboto Condensed'),local('RobotoCondensed-Regular'),url(https://fonts.gstatic.com/s/robotocondensed/v16/Zd2E9abXLFGSr9G3YK2MsJ84zb0nVte6liF9gGtpo1Y.woff2) format('woff2');unicode-range:U+0102-0103,U+0110-0111,U+1EA0-1EF9,U+20AB}@font-face{font-family:'Roboto Condensed';font-style:normal;font-weight:400;src:local('Roboto Condensed'),local('RobotoCondensed-Regular'),url(https://fonts.gstatic.com/s/robotocondensed/v16/Zd2E9abXLFGSr9G3YK2MsD86pq2NkPzVgw_9lpT6RGI.woff2) format('woff2');unicode-range:U+0100-024F,U+0259,U+1E00-1EFF,U+20A0-20AB,U+20AD-20CF,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:'Roboto Condensed';font-style:normal;font-weight:400;src:local('Roboto Condensed'),local('RobotoCondensed-Regular'),url(https://fonts.gstatic.com/s/robotocondensed/v16/Zd2E9abXLFGSr9G3YK2MsDAdhzWOYhqHvOZMRGaEyPo.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2212,U+2215}@font-face{font-family:'Roboto Condensed';font-style:normal;font-weight:700;src:local('Roboto Condensed Bold'),local('RobotoCondensed-Bold'),url(https://fonts.gstatic.com/s/robotocondensed/v16/b9QBgL0iMZfDSpmcXcE8nDW5FUgIgejJvrHuLWqrSMw.woff2) format('woff2');unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F}@font-face{font-family:'Roboto Condensed';font-style:normal;font-weight:700;src:local('Roboto Condensed Bold'),local('RobotoCondensed-Bold'),url(https://fonts.gstatic.com/s/robotocondensed/v16/b9QBgL0iMZfDSpmcXcE8nA30BZHTGu2N_DqssQcMQNQ.woff2) format('woff2');unicode-range:U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}@font-face{font-family:'Roboto Condensed';font-style:normal;font-weight:700;src:local('Roboto Condensed Bold'),local('RobotoCondensed-Bold'),url(https://fonts.gstatic.com/s/robotocondensed/v16/b9QBgL0iMZfDSpmcXcE8nPDoBG10JtAX-GAwn6iwU1Y.woff2) format('woff2');unicode-range:U+1F00-1FFF}@font-face{font-family:'Roboto Condensed';font-style:normal;font-weight:700;src:local('Roboto Condensed Bold'),local('RobotoCondensed-Bold'),url(https://fonts.gstatic.com/s/robotocondensed/v16/b9QBgL0iMZfDSpmcXcE8nGhQuge17febRYSUkWKdLWA.woff2) format('woff2');unicode-range:U+0370-03FF}@font-face{font-family:'Roboto Condensed';font-style:normal;font-weight:700;src:local('Roboto Condensed Bold'),local('RobotoCondensed-Bold'),url(https://fonts.gstatic.com/s/robotocondensed/v16/b9QBgL0iMZfDSpmcXcE8nBBtmDLrZTTOm3p1EhiGCXc.woff2) format('woff2');unicode-range:U+0102-0103,U+0110-0111,U+1EA0-1EF9,U+20AB}@font-face{font-family:'Roboto Condensed';font-style:normal;font-weight:700;src:local('Roboto Condensed Bold'),local('RobotoCondensed-Bold'),url(https://fonts.gstatic.com/s/robotocondensed/v16/b9QBgL0iMZfDSpmcXcE8nEV356qNqHCUb41pS3zqMSE.woff2) format('woff2');unicode-range:U+0100-024F,U+0259,U+1E00-1EFF,U+20A0-20AB,U+20AD-20CF,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:'Roboto Condensed';font-style:normal;font-weight:700;src:local('Roboto Condensed Bold'),local('RobotoCondensed-Bold'),url(https://fonts.gstatic.com/s/robotocondensed/v16/b9QBgL0iMZfDSpmcXcE8nHm2hrkyco9jQ3NKMXpgOBg.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2212,U+2215}@font-face{font-family:Lobster;font-style:normal;font-weight:400;src:local('Lobster Regular'),local('Lobster-Regular'),url(https://fonts.gstatic.com/s/lobster/v20/lHpQDMs3kBv7PKZOlbpwifY6323mHUZFJMgTvxaG2iE.woff2) format('woff2');unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F}@font-face{font-family:Lobster;font-style:normal;font-weight:400;src:local('Lobster Regular'),local('Lobster-Regular'),url(https://fonts.gstatic.com/s/lobster/v20/c28rH3kclCLEuIsGhOg7evY6323mHUZFJMgTvxaG2iE.woff2) format('woff2');unicode-range:U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}@font-face{font-family:Lobster;font-style:normal;font-weight:400;src:local('Lobster Regular'),local('Lobster-Regular'),url(https://fonts.gstatic.com/s/lobster/v20/RdfS2KomDWXvet4_dZQehvY6323mHUZFJMgTvxaG2iE.woff2) format('woff2');unicode-range:U+0102-0103,U+0110-0111,U+1EA0-1EF9,U+20AB}@font-face{font-family:Lobster;font-style:normal;font-weight:400;src:local('Lobster Regular'),local('Lobster-Regular'),url(https://fonts.gstatic.com/s/lobster/v20/9NqNYV_LP7zlAF8jHr7f1vY6323mHUZFJMgTvxaG2iE.woff2) format('woff2');unicode-range:U+0100-024F,U+0259,U+1E00-1EFF,U+20A0-20AB,U+20AD-20CF,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:Lobster;font-style:normal;font-weight:400;src:local('Lobster Regular'),local('Lobster-Regular'),url(https://fonts.gstatic.com/s/lobster/v20/cycBf3mfbGkh66G5NhszPQ.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2212,U+2215}/*! normalize.css v3.0.2 | MIT License | git.io/normalize */html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block;vertical-align:baseline}audio:not([controls]){display:none;height:0}[hidden],template{display:none}a{background-color:transparent}a:active,a:hover{outline:0}abbr[title]{border-bottom:1px dotted}b,optgroup,strong{font-weight:700}dfn{font-style:italic}h1{font-size:2em;margin:.67em 0}mark{background:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;vertical-align:baseline}sup{top:-.5em}sub{bottom:-.25em}svg:not(:root){overflow:hidden}figure{margin:1em 40px}hr{-moz-box-sizing:content-box;box-sizing:content-box;height:0}pre,textarea{overflow:auto}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}button,input,optgroup,select,textarea{color:inherit;font:inherit;margin:0}button{overflow:visible}button,select{text-transform:none}.block10-delivery,.block10__sale,.block1__top,.block2__list ul li .list__title,.block7__btn,.block__timer-text,.form-horizontal .row label{text-transform:uppercase}button,html input[type=button],input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer}button[disabled],html input[disabled]{cursor:default}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}input{line-height:normal}input[type=checkbox],input[type=radio]{box-sizing:border-box;padding:0}input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-spin-button{height:auto}input[type=search]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-search-decoration{-webkit-appearance:none}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}table{border-collapse:collapse;border-spacing:0}body{margin:0;min-width:1000px;background:url(img/img1.0.1.png) center 0 repeat-x #3a1a2d;color:#2c4341;font-family:"Roboto Condensed",sans-serif}.wrapper-hidden{overflow:hidden;width:100%;height:100%}.wrapper{z-index:2;margin:0 auto;width:1000px}*{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}ol,ul{margin:0 0 10px 25px}ol ol,ol ul,ul ol,ul ul{margin-bottom:0}li{line-height:20px}ol.inline,ol.unstyled,ul.inline,ul.unstyled{margin-left:0;list-style:none}ol.inline>li,ul.inline>li{display:inline-block;padding-right:15px;padding-left:15px}.clearfix:after,.clearfix:before{display:table;content:" "}.block1__top-sale::before,.block2__top .wrapper::before,.block4 ul li::before{content:''}.clearfix:after{clear:both}ul.list-inline{text-align:justify;line-height:0;font-size:1px;text-justify:newspaper}ul.list-inline li{text-align:center;box-sizing:border-box;vertical-align:top}ul.list-inline li.helper{padding:0;margin:0;width:100%;height:0;visibility:hidden;overflow:hidden}.fancybox-overlay,.fancybox-wrap{z-index:1000}.block__timer{text-align:center;vertical-align:top}.block__timer .landing__countdown{display:block;width:215px;margin:17px auto;padding:0;height:42px}.block__timer .landing__countdown span{font:700 26px/40px RobotoCondensed-Light,sans-serif;color:#411c32;display:inline-block;width:61px;background:url(img/img1.6.png) no-repeat;height:42px;margin:0 5px;text-align:center;letter-spacing:20px;padding-left:8px}.countdown__entities{display:none}.block1 .wrapper{background:url(img/img1.0.png) center bottom no-repeat}.block1__top{font:400 23px/50px Roboto Condensed,sans-serif;color:#FFf}.block1__top .lastpack{color:#ffcc19}.block1__top-sale{font:400 35px/40px Lobster,cursive;width:106px;text-align:center;display:inline-block;vertical-align:middle}.block1__top-sale::before{position:absolute;background:url(img/img1.1.png) no-repeat;width:106px;height:100px;left:0;top:-28px;z-index:-1}.block1__top-action{text-align:center;color:#ffcc19;position:relative;font:400 23px/50px RobotoCondensed-Light,sans-serif}.block1__right{width:32.5%;float:right;position:relative;text-align:center;overflow:hidden;margin-top:-50px}.block-action{height:222px;background:#b7064d;border-bottom-left-radius:15px;border-bottom-right-radius:15px}.block1__body{position:relative;padding-bottom:50px}.block1__left{width:350px;display:inline-block;padding:40px 0 0}.block1__left img{margin-left:30px}.block1__title{padding:46px 0 30px;font:400 44px/45px Lobster,cursive;color:#ffcc19}.block1__sub{width:325px;font:300 24px/35px Roboto Condensed,sans-serif;color:#FFf}.block1__price{font:400 30px/53px Lobster,cursive;color:#b7064d;background:url(img/img1.4.png) center 0 no-repeat;height:66px}.block1__price span{width:auto;padding-left:10px;padding-right:10px;display:inline-block;vertical-align:top;text-align:center}.block1__price .oldprice{text-decoration:line-through}.block__timer-text{color:#FFf;font:300 18px/35px Roboto Condensed,sans-serif}.block1__right ul{margin:90px 0 0;padding:0}.block1__right ul li{font:300 22px/30px Roboto Condensed,sans-serif;color:#FFf;padding:5px 0 5px 55px;text-align:left;background:url(img/img1.7.png) left center no-repeat}.block3__list ul,.block3__title,.block4__title,.block5__title,.block6 ul,.block6__title{text-align:center}#ImageBeforeAfter{position:absolute;bottom:0;left:277px}#ImageBeforeAfter img{bottom:0;position:absolute;left:0;-webkit-transition:opacity 1s ease-in-out;-moz-transition:opacity 1s ease-in-out;-o-transition:opacity 1s ease-in-out;transition:opacity 1s ease-in-out}@-webkit-keyframes cf3FadeInOut{0%,45%{opacity:1}100%,55%{opacity:0}}@-moz-keyframes cf3FadeInOut{0%,45%{opacity:1}100%,55%{opacity:0}}@-o-keyframes cf3FadeInOut{0%,45%{opacity:1}100%,55%{opacity:0}}@keyframes cf3FadeInOut{0%,45%{opacity:1}100%,55%{opacity:0}}@-webkit-keyframes cf3FadeInOutBottom{0%,45%{opacity:0}100%,55%{opacity:1}}@-moz-keyframes cf3FadeInOutBottom{0%,45%{opacity:0}100%,55%{opacity:1}}@-o-keyframes cf3FadeInOutBottom{0%,45%{opacity:0}100%,55%{opacity:1}}@keyframes cf3FadeInOutBottom{0%,45%{opacity:0}100%,55%{opacity:1}}#ImageBeforeAfter img.top{-webkit-animation-name:cf3FadeInOut;-webkit-animation-timing-function:cubic-bezier(.55,.085,.68,.53);-webkit-animation-iteration-count:infinite;-webkit-animation-duration:8s;-webkit-animation-direction:alternate;-moz-animation-name:cf3FadeInOut;-moz-animation-timing-function:cubic-bezier(.55,.085,.68,.53);-moz-animation-iteration-count:infinite;-moz-animation-duration:8s;-moz-animation-direction:alternate;-o-animation-name:cf3FadeInOut;-o-animation-timing-function:cubic-bezier(.55,.085,.68,.53);-o-animation-iteration-count:infinite;-o-animation-duration:8s;-o-animation-direction:alternate;animation-name:cf3FadeInOut;animation-timing-function:cubic-bezier(.55,.085,.68,.53);animation-iteration-count:infinite;animation-duration:8s;animation-direction:alternate}#ImageBeforeAfter img.bottom{-webkit-animation-name:cf3FadeInOutBottom;-webkit-animation-timing-function:cubic-bezier(.55,.085,.68,.53);-webkit-animation-iteration-count:infinite;-webkit-animation-duration:8s;-webkit-animation-direction:alternate;-moz-animation-name:cf3FadeInOutBottom;-moz-animation-timing-function:cubic-bezier(.55,.085,.68,.53);-moz-animation-iteration-count:infinite;-moz-animation-duration:8s;-moz-animation-direction:alternate;-o-animation-name:cf3FadeInOutBottom;-o-animation-timing-function:cubic-bezier(.55,.085,.68,.53);-o-animation-iteration-count:infinite;-o-animation-duration:8s;-o-animation-direction:alternate;animation-name:cf3FadeInOutBottom;animation-timing-function:cubic-bezier(.55,.085,.68,.53);animation-iteration-count:infinite;animation-duration:8s;animation-direction:alternate}.block2{font:300 20px/28px Roboto Condensed,sans-serif;color:#FFf;height:320px}.block2 .wrapper-hidden{padding-top:18px;margin-top:-18px}.block2__top{background:#b7064d;position:relative}.block2__top .wrapper{padding:25px 0 35px 245px;height:195px;font-size:18px;background:url(img/img2.0.png) center 0 no-repeat}.block2__top .wrapper::before{position:absolute;background:url(img/produkt_cream.png) no-repeat;width:1069px;height:300px;left:-10px;top:-15px;background-size:contain}.block2__bottom{background:#612549}.block2__title{font:400 28px/30px Lobster,cursive;color:#ffce22;padding-left:244px}.block2__list{padding:70px 0 30px 400px;background:url(img/img2.2.png) 85px 70px no-repeat}.block2__list ul li{line-height:30px;width:600px}.block2__list ul li+li{margin-top:40px}.block2__list ul li .list__title{color:#ffce22;font:300 22px/30px Roboto Condensed,sans-serif}.block3 .wrapper{background:url(img/img3.0.png) center center no-repeat}.block3__title{font:400 40px/40px Lobster,cursive;color:#ffce22;padding:40px 0 10px}.block3__list ul li{vertical-align:top;color:#FFf;width:45%;text-align:center;font:300 20px/30px Roboto Condensed,sans-serif;padding-top:200px;margin-bottom:15px}.block3__list ul li .block3__list_title{text-transform:uppercase;color:#ffce22;font:400 22px/30px Roboto Condensed,sans-serif}.block3__list .item1{background:url(img/img3.1.png) center 0 no-repeat}.block3__list .item2{background:url(img/img3.2.png) center 0 no-repeat}.block3__list .item3{background:url(img/img3.3.png) center 0 no-repeat}.block3__list .item4{background:url(img/img3.4.png) center 0 no-repeat}.block3__list .item5{background:url(img/img3.5.png) center 0 no-repeat}.block4{background:#ffce22;height:570px}.block4 .wrapper{height:428px}.block4__title{font:400 40px/40px Lobster,cursive;color:#3a1a2d;padding:40px 0}.block4 ul li{padding:40px 35px 0;vertical-align:top;width:330px;position:relative;height:446px;color:#3a1a2d;font:300 18px/22px Roboto Condensed,sans-serif}.block4 ul li::before{position:absolute;background:url(img/img3.6.png) no-repeat;width:346px;height:445px;left:-8px;top:0;z-index:-1}.block4__top{height:288px}.block4__bottom img{float:left}.block4__bottom_name{margin-left:100px;color:#bc0831}.block5{margin-top:-142px;padding-top:190px;background:url(img/img4.0.png) center bottom no-repeat #3a1a2d}.block5__title{font:400 40px/40px Lobster,cursive;color:#ffce22;padding:0 0 40px}.block5 img{position:absolute;left:0;bottom:0}.block10-delivery{display:block!important}.block10-delivery .newprice{color:#FFf}#order_form0 .block10-btn{display:block;margin:20px auto 0;width:300px}.block5__wrap{margin-left:345px;background:#612549;border-radius:20px 20px 0 0;font:300 20px/27px Roboto Condensed,sans-serif;padding:15px 15px 14px;color:#FFf;position:relative}.block5__wrap::before,.block7 .wrapper-hidden::before{position:absolute;content:''}.block5__wrap::before{background:url(img/img4.1.png) no-repeat;width:50px;height:33px;left:-25px;top:110px}.block5__name{color:#ffce22;padding:40px 0 14px}.block6{background:#fff;margin-top:-142px;padding-top:150px}@media screen and (max-width:1000px){.block6{margin-top:0;padding-top:30px}}.block6 .wrapper{padding:40px 0}.block6__title{font:400 40px/40px Lobster,cursive;color:#612549;padding:0 0 40px}.block6 ul li,.block7__delivery{font:300 20px/30px Roboto Condensed,sans-serif}.block6 ul{background:url(img/xz.png) center 0 no-repeat}.block6 ul li{padding-top:160px;color:#b7064d;vertical-align:top;width:305px}.block7 .wrapper-hidden{padding-top:40px;margin-top:-40px;height:auto}.block7 .wrapper-hidden::before{left:0;top:40px;width:100%;height:380px;background:#612549}.block7__delivery{color:#FFf;padding-right:318px;position:relative;padding-bottom:165px}.block7__delivery::before{content:'';position:absolute;background:url(img/img6.3.png) no-repeat;width:372px;height:347px;right:-70px;top:-40px}.block7__delivery_title{font:400 40px/40px Lobster,cursive;color:#ffce22;text-align:left;padding:30px 0 20px}.block7__warning_title{font:400 37px/40px Lobster,cursive;color:#b50d72;text-align:left;padding:0 0 30px}.block10-btn,.block10__count,.block10__price,.block7__btn,.block8 ul,.block8 ul li,.block8__title{text-align:center}.block7__warning{position:relative;width:655px;padding:20px 225px 20px 20px;background:#ffce22;color:#612549;margin:40px 0 0;border-radius:20px;font:300 20px/30px Roboto Condensed,sans-serif}.block7__warning::before{content:'';position:absolute;background:url(img/img6.1.png) no-repeat;width:166px;height:223px;right:15px;top:-15px}.block7__btn{position:absolute;right:15px;bottom:15px;color:#FFf;background:url(img/img6.2.png) no-repeat;width:167px;height:50px;font:400 18px/50px Roboto Condensed,sans-serif;text-decoration:none}.block8__title{font:400 40px/40px Lobster,cursive;color:#ffce22;padding:30px 0}.block8 ul{background:url(img/img7.1.png) center 0 no-repeat}.block8 ul li{padding-top:190px;width:325px;color:#FFf;font:300 18px/50px Roboto Condensed,sans-serif}.block10{margin-top:80px;background:url(img/img8.0.png) left 0 repeat-x}.block10__left{background:url(img/img8.5.png) 20px 38px no-repeat}.block10 .wrapper::before{content:'';position:absolute;background:url(img/img8.0.1.png) no-repeat;width:1000px;height:450px;left:0;top:0;z-index:-1}.block10__title{color:#FFf;font:400 38px/40px Lobster,cursive;padding:55px 0 0 195px;position:relative}.block10__title::before{content:'';position:absolute;background:url(img/produkt_cream.png) center no-repeat;width:226px;height:405px;left:-66px;top:-50px;z-index:1;background-size:contain}.block10__price{background:url(img/img8.4.png) left 0 no-repeat;width:284px;height:73px;margin:25px 0 0 185px;position:relative}.block10__price .newprice,.block10__price .oldprice{font:400 28px/73px Roboto Condensed,sans-serif;width:49%;display:inline-block;vertical-align:top}.block10__price .oldprice{color:#fcc524;text-decoration:line-through}.block10__price .newprice{color:#b7064d}.block10__sale{width:350px;font:400 20px/25px Roboto Condensed,sans-serif;color:#f5b429;margin:20px 0 20px 95px;padding:0 0 0 20px}.block10__sale div{margin-left:80px}.block10__count{width:68px;height:54px;display:inline-block;float:left;color:#580c2b;font:400 40px/54px Roboto Condensed,sans-serif;background:url(img/img8.3.png) no-repeat}.block10__allsale{color:#fffffe;font:300 18px/25px Roboto Condensed,sans-serif;margin:30px 0 0 115px;padding:5px 0 30px 85px;width:355px;background:url(img/img8.1.png) no-repeat}.block10-form{padding:20px;margin:38px 40px 0 20px;width:440px;-webkit-border-radius:20px;-moz-border-radius:20px;border-radius:20px;background:#b7064d;box-sizing:border-box}.block10-btn{background:url(img/img8.2.png) center 0 no-repeat;width:203px;height:64px;display:inline-block;border:none;color:#FFf;font:700 30px/60px Roboto Condensed,sans-serif;-moz-transition:all 1s ease-out;-o-transition:all 1s ease-out;-webkit-transition:all 1s ease-out}.block10-btn:hover{-webkit-transform:scale(1.1);-moz-transform:scale(1.1);-o-transform:scale(1.1)}.block10-delivery{padding-top:8px;font:300 18px/22px Roboto Condensed,sans-serif;width:165px;margin-left:10px;text-align:left;color:#ffae2b;vertical-align:top}.akciya1,.block11{text-align:center}.block10-delivery span{color:#FFf}.form-horizontal{margin-bottom:0}.form-horizontal .row{margin-bottom:20px}.form-horizontal .row input[type=text],.form-horizontal .row select{width:100%;height:40px;padding:5px 10px;border:1px solid #ae1f22;border-radius:3px;-webkit-box-shadow:0 2px 5px #f5eedc inset;box-shadow:0 2px 5px #f5eedc inset;display:block;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}.form-horizontal .row label{display:block;color:#FFf;font:400 23px/23px Roboto Condensed,sans-serif;padding-bottom:10px}.form-horizontal .row label small{float:right;color:#ffae2b;font:italic 14px/14px Roboto Condensed,sans-serif;text-transform:capitalize}.form-horizontal .row-submit{margin-left:10px;margin-bottom:0}.row-submit button,.row-submit button:active,.row-submit button:focus,.row-submit button:hover{vertical-align:top;margin:0;text-transform:uppercase}.row-submit span.itog{color:#5d2315;font-family:Georgia;font-style:italic;font-size:18px;display:inline-block;vertical-align:middle;float:right;line-height:55px}.akciya1,.block1__top .lt1,.imlogo{display:block}.block11{margin-top:0;padding:25px 0;background:#3a1a2d;color:#b7064d;font:400 16px/26px Roboto Condensed,sans-serif}.block11 .wrapper{z-index:0}.imlogo{position:absolute;bottom:0;left:50%;margin-left:-200px}.akciya1{width:270px;margin:-5px auto;padding:5px 0;background-color:#F90;cursor:pointer;border:0;border-radius:8px;color:#FFF;font-weight:700;text-decoration:none;box-shadow:0 0 5px rgba(0,0,0,.5)}.akciya1:hover{background-color:#FF3;color:#C00;box-shadow:0 0 5px rgba(0,0,0,.5),0 0 5px rgba(0,0,0,.5)}span.oldprice.price_old span{text-decoration:line-through}.block1__top .lt1:after{content:'';display:table;clear:both}@media screen and (max-width:1000px){.block1__sub,.wrapper{width:auto}.block10,.block2,.block2__top .wrapper,.block3,.block4,.block4 .wrapper,.block4 ul li,.block4__top,.block5 img,.block7,.block7 .wrapper-hidden,.block7__warning,.wrapper-hidden{height:auto}.block2__title,.block2__top .wrapper,.block6 .wrapper{padding:20px}.wrapper{padding:0 10px}.block1__body:after{content:'';display:table;clear:both}.block2__top .wrapper::before,.block4 ul li:before,.block5__wrap:before,.imlogo{display:none}.block1__right{width:50%;margin:0}.block4 ul li+li,.block4__bottom{margin-top:20px}.block1__left{float:left;width:50%}.block1__title,.block2__title,.block3__title,.block4__title,.block5__title,.block6__title,.block8__title{text-align:center;font-size:32px}.block1__title{text-align:left;padding-bottom:10px}.block10__title,.block7__delivery,.block7__delivery_title{text-align:center}body{min-width:initial}.wrapper-hidden{width:auto}ul.inline{font-size:0}.block4 ul li{width:100%;background:#fff;border-radius:6px;padding:25px;font-size:18px}.block10,.block10__left,.block6 ul,.block8 ul{background:0 0}.block4__bottom img{max-width:75px}.block5__wrap{margin:0}.block5 img{float:none;display:block;max-width:80%;margin:auto;position:static;left:auto;bottom:auto}.block7__delivery:before,.block7__warning br{display:none}.block6 ul li,.block8 ul li{width:100%;padding:0;margin-top:0}.block7__delivery{width:70%;margin:auto}.block7__warning{width:90%;margin:230px auto 0;padding:40px}.block7__warning:before{bottom:100%;left:0;right:0;top:auto;margin:0 auto -20px}.block8__title{padding-bottom:0}.block10 table,.block10 tbody,.block10 td,.block10 tr{width:100%;display:block}.block10 .wrapper::before,.block10__title:before{display:none}.block10{overflow:hidden}.block10-form{width:100%;margin:20px 0 0;padding:10px}.form-horizontal .row{margin:0 0 10px}.block10__price,.block10__sale{margin:10px auto 0}.form-horizontal input,.form-horizontal select{height:30px!important;line-height:1!important;font-size:13px}.form-horizontal .row label{font-size:16px;padding-bottom:0}.block10__title{padding:20px 0 0}.block10__left{padding:0 10px}.block10__allsale,.block10__sale{padding:0;max-width:300px;width:auto}.block10__sale div{margin-left:0}.block10__sale .block10__count{float:none;display:block;margin:auto}.block10__allsale{background:0 0;margin:auto}.block10 table{background:linear-gradient(#ff8522,#b7064d 60%) #b7064d;border-top-left-radius:10px;border-top-right-radius:10px}.block10-btn{background:linear-gradient(#ffd38e 0,#fa8819 30%,#feb338 100%) #b7064d;border-radius:20px;line-height:1;font-size:16px;height:auto;width:auto;padding:15px 60px}.block3__list ul li{width:auto;max-width:328px}#order_form0 .block10-btn{width:100%}.block7__delivery{padding:15px 0}}@media screen and (max-width:700px){.block1__left,.block1__right{float:none;width:100%}.block1__left,.block1__title{text-align:center}.block1__sub{margin-bottom:10px}.block1__right ul{margin:20px 0 0}.block1__body{padding-bottom:20px}.block1__top .lt1{overflow-x:auto;overflow-y:hidden;padding-bottom:30px}.block1__top-inner{font-weight:700}.block1__left img{margin:auto}}.footer{background-color:rgb(183,6,77)!important;color:#fff!important;}.al-country{display:none!important}
+    </style>
+    
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <![endif]-->
+    
+<script type="text/javascript" src="script_land.js" defer></script>
+
+<!-- Global site tag (gtag.js) - Google Ads: 816946151 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-816946151"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-816946151');
+</script>
+
+</head>
+
+<body>
+    <section class="wrap-block block1">
+        <div class="wrapper-hidden1">
+            <div class="wrapper">
+                <div class="block1__top">
+                    <span class="lt1">
+<!-- add wrapper ex-zy -->
+<div class="block1__top-inner">
+    ОТСТЪПКА  <span class="block1__top-sale">-50%</span> ЗА ПОСЛЕДНИТЕ <span class="lastpack">9</span> ОПАКОВКИ
+                </div>
+            </div>
+
+            <div class="block1__body">
+                <div class="block1__left">
+                    <img alt="" src="img/logo2.png" width="200" />
+                    <div class="block1__title">
+                        Болят ли ви
+                        <br/> ставите или гърба?
+                    </div>
+                    <div class="block1__sub">
+                        Кремът Ostelife Premium е ефективно средство против остеохондроза, артроза и травми
+                    </div>
+                </div>
+                <div class="block1__right">
+                    <!-- add wrapper ex-zy -->
+                    <div class="block-action">
+                        <span class="block1__top-action">  отстъпка от цената </span>
+                        <div class="block1__price">
+                            <span class="newprice price_main al-cost"></span>
+                            <span class="oldprice price_old al-cost-promo"></span>
+                        </div>
+                        <div class="block__timer">
+                            <div class="block__timer-text"><a class="akciya1 toform">ОФЕРТА ПРИКЛЮЧВА СЛЕД</a>
+                            </div>
+                            <div class="timer">
+                                <div class="landing__countdown is-countdown"><span class="hours">16</span><span class="minutes">24</span><span class="seconds">18</span></div>
+                                <div class="countdown__entities">
+                                    <span class="lt8">часа</span>
+                                    <span class="lt9">минути</span>
+                                    <span class="lt10">секунди</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <ul class="unstyled">
+                        <li> Облекчава болката</li>
+                        <li> Отключва процеса на регенерация на хрущяла</li>
+                        <li> Премахва мускулното напрежение</li>
+                        <li> Премахва подуването</li>
+                        <li> Премахва възпалението</li>
+                    </ul>
+                </div>
+            </div>
+            <img alt="" class="imlogo" src="img/u1.png" />
+        </div>
+        </div>
+    </section>
+    <section class="wrap-block block2">
+        <div class="wrapper-hidden">
+            <div class="block2__top">
+                <div class="wrapper">
+                    Ostelife Premium е средство, което бързо може да премахне болката в следствие на артроза и остеохондроза. Премахва мускулните спазми и възпалението.Ostelife Premium също е ефективен срещу остеохондроза и артрози, защото забавя процеса на изтъняване на хрущялната тъкан
+                    и стимулира регенерацията на ставния хрущял. Положителният ефект се вижда веднага, още след първото нанасяне. Ако се използва редовно, заболяванията на ставите и гръбначния стълб ще забавят своето развитие.
+                </div>
+            </div>
+            <div class="block2__bottom">
+                <div class="wrapper">
+                    <div class="block2__title"> Ostelife Premium е направен от изключително активни компоненти</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="wrap-block block3">
+        <div class="wrapper">
+            <div class="block3__title">
+                Положителното въздействие на крема Ostelife Premium върху гърба и ставите
+            </div>
+            <div class="block3__list">
+                <ul class="inline">
+                    <li class="item1">
+                        <div class="block3__list_title">
+                            ШИРОКА ГАМА
+                            <br/>ОТ ДЕЙСТВИЯ
+                        </div>
+                        премахва травматични болки на ставите и гръбначния стълб и такива свързани с възрастта
+                    </li>
+                    <li class="item2">
+                        <div class="block3__list_title">
+                            БЕЗ СТРАНИЧНИ
+                            <br/> ЕФЕКТИ
+                        </div>
+                        абсолютно безопасен за еднократна или редовна употреба
+                    </li>
+                    <li class="item3">
+                        <div class="block3__list_title">
+                            100 % НАТУРАЛНИ
+                            <br/> СЪСТАВКИ
+                        </div>
+                        само активни билкови растителни компоненти
+                    </li>
+                    <li class="item4">
+                        <div class="block3__list_title"> ВИСОКА ЕФЕКТИВНОСТ</div>
+                        подобрява здравословното състояние и намалява болката веднага след първото нанасяне
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section class="wrap-block block4">
+        <div class="wrapper-hidden">
+            <div class="wrapper">
+                <div class="block4__title">Мнения на потребители</div>
+                <ul class="inline">
+                    <li>
+                        <div class="block4__top">
+                            Кремът Ostelife Premium ми помогна много, когато контузих коленните ми стави на тренировка. Коляното ми беше подуто и болеше много, едва можех да движа крака ми. Но благодарение на Ostelife Premium, можех да ходя на втория ден и се върнах на работа 4 дни по-късно.
+                        </div>
+                        <div class="block4__bottom">
+                            <img alt="" src="img/img3.7.1.png" />
+                            <div class="block4__bottom_name">
+                                Мария, 31, треньор групови програми в мрежа от фитнес клубове
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="block4__top">
+                            Гърбът ми преди ме болеше много, имах остеохондроза, което е типично на моята възраст. Жена ми откри Ostelife Premium в интернет. То стана истинско спасение за мен - преди ми беше трудно да стана сутрин, а сега всичко е наред! Най-важното е, че болката в гърба
+                            я няма.
+                        </div>
+                        <div class="block4__bottom">
+                            <img alt="" src="img/img3.7.2.png" />
+                            <div class="block4__bottom_name">
+                                Михаил, 68, пенсионер
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="block4__top">
+                            Веднъж навехнах глезена си и лекарите ми казаха, че ще отнеме много време да се премахне болката. Но имах късмета да намеря Ostelife Premium. Една седмица по-късно ставите бяха възстановени, болката изчезна, можех да ходя без проблеми и се върнах на работа.
+                        </div>
+                        <div class="block4__bottom">
+                            <img alt="" src="img/img3.7.3.png" />
+                            <div class="block4__bottom_name">
+                                Дени, 35, продавач-консултант
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="wrap-block block6">
+        <div class="wrapper">
+            <div class="block6__title">
+                Как да използвате Ostelife Premium
+            </div>
+            <ul class="inline">
+                <li>
+                    Нанасяйте на суха кожа и втривайте до пълно попиване
+                </li>
+                <li>
+                    Използвайте 2 - 3 пъти на ден
+                </li>
+                <li>
+                    Не се мийте с вода в рамките на първия час след нанасянето
+                </li>
+            </ul>
+        </div>
+    </section>
+    
+    <section class="wrap-block block8">
+        <div class="wrapper">
+            <div class="block8__title"> Как се поръчва крема за гърба и ставите Ostelife Premium </div>
+            <ul class="inline">
+                <li> Попълнете формуляра за поръчка</li>
+                <li> Изберете метод на доставка</li>
+                <li> Само днес!</li>
+            </ul>
+        </div>
+    </section>
+    <section class="wrap-block block10">
+        <div class="wrapper">
+            <table border="0" cellpadding="0" cellspacing="0" valign="top" width="100%">
+                <tbody>
+                    <tr>
+                        <td class="block10__left" valign="top" width="500">
+                            <div class="block10__title">
+                                Само днес!
+                                <br/> 50% отстъпка!
+                            </div>
+                            <div class="block10__price">
+                                <span class="newprice price_main al-cost"></span>
+                                <span class="oldprice price_old al-cost-promo"></span>
+                            </div>
+                            <div class="block10__sale">
+                                <span class="block10__count">15</span>
+                                <div> НАРАВЕНИ ПОРЪЧКИ
+                                    <br/> ПРЕЗ ПОСЛЕДНИЯ ЧАС
+                                </div>
+                            </div>
+                            <script src="js/jquery.min.js"></script>
+                            <script src="js/dr.min.js"></script>
+                            <script src="js/dtime.min.js"></script>
+                            <div class="block10__allsale">
+                                Най-голям брой поръчки (2419) на
+                                <script>
+                                    dtime_nums(-3, true)
+                                </script>
+                            </div>
+                        </td>
+                        <td valign="top" width="500">
+                            <div class="block10-form">
+                                <iframe style="width: 100%;height: 390px;border: 0;" src="https://modesberg.ru/frame1" ></iframe>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+ 
+    <script>
+        $(document).ready(function() {
+            $('.toform').click(function() {
+                $("html, body").animate({
+                    scrollTop: $(".block10-form").offset().top - 300
+                }, 1000);
+                return false;
+            });
+
+        });
+    </script>
+    <script src="js/main.min.js" type="text/javascript"></script>
+</body>
+
+</html>
